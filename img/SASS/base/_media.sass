@@ -1,0 +1,223 @@
+@media (max-width: 1510px)
+    .promo
+        &__block
+            flex-direction: column
+            &_reverse
+                flex-direction: column
+                padding: 0
+        &__img
+            height: 740px
+            &_right
+                position: relative
+                text-align: center
+            &_dissapear
+                display: none
+        &__img-item
+            left: 212px
+            &_relative
+                position: absolute
+                left: 332px
+            &_top-ellipse
+                left: -12px
+                display: none
+            &_bottom-ellipse
+                top: -102px
+                left: 178px
+        &__article
+            width: 100%
+
+    .events
+        &__img-add_attach
+            right: -586px
+
+@media (max-width: 1406px)
+    .events
+        &__img-add_cup
+            display: none
+
+@media (max-width: 1245px)
+    .header
+        &__img
+            width: 80%
+        &__img-scooter
+            width: 578px
+            right: 70px
+            top: 88px
+        &__img-text
+            top: 337px
+            right: 348px
+            width: 135px
+
+@media (max-width: 1230px)
+    .promo
+        &__block
+            margin-bottom: 70px
+        &__img
+            display: none
+            &_mobile
+                display: block
+        &__text_top
+            margin-bottom: 0
+
+//Малый комп или горизонтальный планшет
+@media (max-width: 1199px)
+    .events
+        &__main
+            display: none
+
+    .promo
+        &__block
+            margin-bottom: 0
+            &_reverse
+                margin-bottom: 70px
+
+@media (max-width: 1110px)
+    .header
+        &__img-ellipse
+            display: none
+
+//Вертикальный планшет
+@media (max-width: 991px)
+    .header
+        margin-bottom: 62px
+        &__main
+            padding-top: 30px
+        &__title
+            margin-bottom: 30px
+            width: 80%
+        &__text
+            margin-bottom: 30px
+            width: 80%
+        &__img-container
+            display: none
+        &__img-scooter
+            position: relative
+        &__img-text
+            max-width: 100%
+
+    .footer
+        margin-bottom: 72px
+
+    .image-test
+        display: block
+        position: relative
+        z-index: 0
+
+    .text-test
+        top: 274px
+        right: 307px
+        width: 129px
+
+//Горизонтальный телефон
+@media (max-width: 767px)
+    .blocks
+        grid-template-columns: 1fr
+        grid-template-rows: repeat(4, 1fr)
+        grid-row-gap: 2.7rem
+        &__block
+            display: flex
+            width: 100%
+            justify-content: flex-start
+            align-items: center
+        &__img
+            height: 83px
+            width: 83px
+            margin-right: 1.8rem
+
+    .desc
+        margin-bottom: 72px
+        &__title
+            margin-bottom: 36px
+
+    .button
+        padding: 18px 62px
+
+    .text
+        &_small
+            font-size: 10px
+
+@media (max-width: 655px)
+    .image-test
+        width: 520px
+
+    .scooter
+        width: 520px
+
+    .text-test
+        width: 100px
+        top: 236px
+        right: 262px
+
+//Вертикальный телефон
+@media (max-width: 575px)
+    .header
+        &__title
+            width: 60%
+
+    .desc
+        &__title
+            margin-bottom: 36px
+
+    .title
+        &_main
+            font-size: 3.6rem
+            letter-spacing: -0.72px
+        &_secondary
+            font-size: 3.2rem
+
+    .text
+        font-size: 1.8rem
+
+    .offer
+        &::after
+            left: 20px
+            font-size: 1.3rem
+            padding-bottom: 9px
+
+@media (max-width: 562px)
+    .image-test
+        width: 320px
+
+    .scooter
+        width: 320px
+
+    .text-test
+        width: 70px
+        top: 142px
+        right: 159px
+
+@media (max-width: 452px)
+    .header__text
+        width: 90%
+
+    .text
+        line-height: 150%
+
+@media (max-width: 375px)
+    .promo
+        &__button
+            display: none
+
+    .button
+        position: fixed
+        z-index: 20
+        top: 89vh
+        left: 10%
+        padding: 12px 64px
+
+@media (max-width: 366px)
+    .blocks
+        &__block
+            height: 16.5rem
+
+@media (max-width: 360px)
+    .image-test
+        width: 280px
+
+    .scooter
+        width: 280px
+
+    .text-test
+        width: 60px
+        top: 126px
+        right: 140px

@@ -1,0 +1,43 @@
+.events
+    margin-bottom: 40px
+    &__title
+        margin-bottom: 48px
+    &__main
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr repeat(2, 0.5fr)
+        grid-column-gap: 6px
+        grid-row-gap: 6px
+    &__item
+        position: relative
+    &__img-main
+        -webkit-border-radius: 99px
+        -moz-border-radius: 99px
+        border-radius: 99px
+    &__img-add
+        position: absolute
+        z-index: 1
+        &_map
+            top: 110px
+            right: 720px
+        &_attach
+            top: -394px
+            right: -616px
+        &_cup
+            top: -45px
+            right: -682px
+            max-width: 100%
+    &__text_mobile
+        margin-bottom: 47px
+        display: none
+
+.item-1
+    grid-area: 1 / 1 / 4 / 2
+.item-2
+    grid-area: 2 / 2 / 6 / 3
+.item-3
+    grid-area: 4 / 1 / 8 / 2
+.item-4
+    grid-area: 6 / 2 / 10 / 3
+.item-5
+    grid-area: 8 / 1 / 12 / 2

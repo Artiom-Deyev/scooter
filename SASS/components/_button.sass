@@ -1,0 +1,29 @@
+.button
+    display: inline-block
+    text-align: center
+    border-radius: 36px
+    background: #FFDE40
+    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59)
+    padding: 20px 58px
+    text-decoration: none
+    cursor: pointer
+    &__body
+        line-height: 100%
+    &:hover
+        transform: scale(1.1)
+        transition-duration: .1s
+    &_mobile
+        display: none
+        border-radius: 36px
+        background: #FFDE40
+        box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59)
+        padding: 20px 58px
+        text-decoration: none
+        cursor: pointer
+        position: fixed
+        z-index: 10
+        top: 80vh
+        left: 50%
+        transform: translate(-50%, -50%)
+        text-align: center
+        white-space: nowrap

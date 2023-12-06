@@ -1,0 +1,8 @@
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}/*# sourceMappingURL=mixins.css.map */
